@@ -20,7 +20,6 @@ import com.opensymphony.xwork2.ActionSupport;
     @Result(name="success",location="/delSucc.jsp")
 })
 public class BookDelAction extends ActionSupport{
-    private static final long serialVersionUID = 1L;
     private int id;
     public int getId() {
         return id;
